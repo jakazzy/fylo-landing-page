@@ -14,4 +14,8 @@
         left: 116px;
         top: 120px;
     }
+    nav {
+        padding-top: 14px;
+        padding-left: 15px;
+    }
 }

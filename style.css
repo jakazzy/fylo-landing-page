@@ -27,4 +27,10 @@
         display: inline;
         padding-right: 25px
     }
+    .two {
+        height: 100vh
+    }
+    .text {
+        text-align: center;
+    }
 }

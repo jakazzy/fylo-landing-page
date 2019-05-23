@@ -43,5 +43,18 @@
 
 p {
     font-size: 1.2rem;
-    margin-bottom: 40px;
+}
+
+p#item1 {
+    margin-bottom: 60px;
+}
+
+p#item2 {
+    padding-top: 60px;
+}
+
+.sign-up {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
 }

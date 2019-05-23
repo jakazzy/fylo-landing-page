@@ -34,3 +34,14 @@
         text-align: center;
     }
 }
+
+.wrapper {
+    width: 78%;
+    height: 100%;
+    margin: 0 auto
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}

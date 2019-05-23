@@ -1,0 +1,17 @@
+@media screen and (max-width: 400px) {
+    body {
+        margin: 0
+    }
+    .one {
+        background-image: url("/images/bg-intro.svg");
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-size: cover;
+        height: 100vh
+    }
+    #image {
+        position: relative;
+        left: 116px;
+        top: 120px;
+    }
+}

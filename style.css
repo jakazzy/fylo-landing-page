@@ -21,4 +21,7 @@
     .font-awesome {
         color: #fff;
     }
+    .font-awesome li {
+        display: inline
+    }
 }

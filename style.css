@@ -18,8 +18,12 @@
         padding-top: 14px;
         padding-left: 15px;
     }
+    #logo {
+        float: left
+    }
     .font-awesome {
         color: #fff;
+        float: right;
     }
     .font-awesome li {
         display: inline

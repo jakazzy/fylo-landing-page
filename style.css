@@ -1,42 +1,19 @@
+/* desktop designs */
+
 body {
     margin: 0
 }
 
-@media screen and (max-width: 400px) {
-    body {
-        margin: 0
-    }
-    .one {
-        background-image: url("/images/bg-intro.svg");
-        background-repeat: no-repeat;
-        background-origin: padding-box;
-        background-size: cover;
-        height: 100vh
-    }
-    #image {
-        position: relative;
-        left: 102px;
-        top: 76px;
-    }
-    nav {
-        padding-top: 32px;
-        padding-left: 15px;
-    }
-    .font-awesome {
-        color: #fff;
-        float: right;
-        margin: 0
-    }
-    .font-awesome li {
-        display: inline;
-        padding-right: 25px
-    }
-    .two {
-        height: 100vh
-    }
-    .text {
-        text-align: center;
-    }
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.one {
+    background-image: url(/images/bg-intro.svg);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-size: cover;
 }
 
 .wrapper {
@@ -84,4 +61,87 @@ p#item2 {
 
 .button-style {
     text-align: left
+}
+
+
+/* end of desktop designs */
+
+
+/* begin mobile designs */
+
+@media screen and (max-width: 400px) {
+    body {
+        margin: 0
+    }
+    .one {
+        background-image: url("/images/bg-intro.svg");
+        background-repeat: no-repeat;
+        background-origin: padding-box;
+        background-size: cover;
+        height: 100vh
+    }
+    #image {
+        position: relative;
+        left: 102px;
+        top: 76px;
+    }
+    nav {
+        padding-top: 32px;
+        padding-left: 15px;
+    }
+    .font-awesome {
+        color: #fff;
+        float: right;
+        margin: 0
+    }
+    .font-awesome li {
+        display: inline;
+        padding-right: 25px
+    }
+    .two {
+        height: 100vh
+    }
+    .text {
+        text-align: center;
+    }
+    .wrapper {
+        width: 78%;
+        height: 100%;
+        margin: 0 auto
+    }
+    p {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    p#item1 {
+        margin-bottom: 60px;
+        color: #928e8e;
+    }
+    p#item2 {
+        margin-bottom: 5px;
+    }
+    .sign-up {
+        border: 1px solid #e0d9d9;
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        font-size: 1.2rem;
+        border-radius: 5px;
+        line-height: 1.8rem;
+        margin-bottom: 20px;
+        margin-left: 0
+    }
+    .signup-button {
+        border: 1px solid #e0d9d9;
+        border-radius: 2px;
+        width: 45%;
+        font-size: 1.1rem;
+        padding: 1%;
+        background-color: aqua;
+        color: #fff;
+        margin-left: 0
+    }
+    .button-style {
+        text-align: left
+    }
 }

@@ -43,6 +43,7 @@
 
 p {
     font-size: 1.2rem;
+    text-align: left;
 }
 
 p#item1 {
@@ -58,19 +59,26 @@ p#item2 {
 .sign-up {
     border: 1px solid #e0d9d9;
     display: block;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     font-size: 1.2rem;
     border-radius: 5px;
     line-height: 1.8rem;
     margin-bottom: 20px;
+    margin-left: 0
 }
 
 .signup-button {
     border: 1px solid #e0d9d9;
-    border-radius: 5px;
+    border-radius: 2px;
     width: 45%;
     font-size: 1.1rem;
     padding: 1%;
     background-color: aqua;
+    color: #fff;
+    margin-left: 0
+}
+
+.button-style {
+    text-align: left
 }

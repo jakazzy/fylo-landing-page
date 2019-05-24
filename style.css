@@ -63,4 +63,14 @@ p#item2 {
     font-size: 1.2rem;
     border-radius: 5px;
     line-height: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.signup-button {
+    border: 1px solid #e0d9d9;
+    border-radius: 5px;
+    width: 45%;
+    font-size: 1.1rem;
+    padding: 1%;
+    background-color: aqua;
 }

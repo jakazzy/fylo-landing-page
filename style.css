@@ -51,10 +51,15 @@ p#item1 {
 
 p#item2 {
     padding-top: 60px;
+    margin-bottom: 5px;
 }
 
 .sign-up {
+    border: 1px solid #e0d9d9;
     display: block;
     width: 70%;
     margin: 0 auto;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    line-height: 1.8rem;
 }

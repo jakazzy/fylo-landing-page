@@ -29,11 +29,14 @@
         position: relative;
         padding-top: 32px;
         padding-left: 15px;
-        left: 469px;
+        left: 107%;
     }
     .font-awesome {
         float: right;
-        margin: 0
+        margin: 0;
+        padding-left: 0;
+        text-align: left;
+        width: 41%;
     }
     .font-awesome li {
         display: inline;

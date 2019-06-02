@@ -1,6 +1,6 @@
 /* desktop designs */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 500px) {
     html,
     body {
         height: 100%;
@@ -38,19 +38,18 @@
         text-align: left;
         width: 41%;
     }
-    .font-awesome li {
-        display: inline;
+    .font-awesome a {
         padding-right: 25px
     }
     p {
         font-size: 1.2rem;
         text-align: left;
     }
-    p#item1 {
+    p.item1 {
         margin-bottom: 60px;
         color: #928e8e;
     }
-    p#item2 {
+    p.item2 {
         margin-bottom: 5px;
     }
     .sign-up {
@@ -85,7 +84,7 @@
 
 /* begin mobile designs */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     body {
         margin: 0
     }
@@ -96,7 +95,7 @@
         background-size: cover;
         height: 100vh
     }
-    #image {
+    .image {
         position: relative;
         left: 102px;
         top: 76px;
@@ -110,8 +109,7 @@
         float: right;
         margin: 0
     }
-    .font-awesome li {
-        display: inline;
+    .font-awesome a {
         padding-right: 25px
     }
     .two {
@@ -129,11 +127,11 @@
         font-size: 1.2rem;
         text-align: left;
     }
-    p#item1 {
+    p.item1 {
         margin-bottom: 60px;
         color: #928e8e;
     }
-    p#item2 {
+    p.item2 {
         margin-bottom: 5px;
     }
     .sign-up {
